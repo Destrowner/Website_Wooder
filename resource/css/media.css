@@ -1,0 +1,322 @@
+@media only screen and (max-width: 1250px) {
+  .furniture-bg {
+    padding-right: 5%;
+  }
+  .furniture__description {
+    padding-left: 5%;
+  }
+  .decor-bg {
+    padding-left: 5%;
+  }
+  .decor__description {
+    padding-right: 5%;
+  }
+  .slider-pagination {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .quality__blocks {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .f, .d, .a {
+    display: none;
+  }
+  .main-screen__bg {
+    display: block;
+  }
+  .main-screen__logo {
+    z-index: 1;
+    top: calc(30% - 179px / 2);
+    left: calc(40% - 487px / 2);
+  }
+  .main-screen__bg-small {
+    display: none;
+  }
+  .main-screen__slider {
+    height: 100vh;
+    min-height: 600px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .slider-pagination {
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  section.furniture {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 0;
+  }
+  section.furniture > div {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .furniture__description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .furniture-bg {
+    padding: 20px;
+    padding-left: 22%;
+  }
+  section.decor {
+    padding-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 0;
+  }
+  section.decor > div {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .decor__description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .decor-bg {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding: 20px;
+    padding-right: 22%;
+  }
+  section.quality {
+    padding: 0 5%;
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 872px) {
+  section.video {
+    padding: 25px 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  nav.main-nav {
+    display: none !important;
+  }
+  header {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navigation-menu {
+    display: block;
+  }
+  .slider-pagination {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  section.about {
+    padding: 100px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.about > div {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .about-bg {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding: 10px 0;
+  }
+  .about-bg img {
+    padding: 5px 0;
+  }
+  .about-bg p {
+    display: none;
+  }
+  .about__description__wrapper {
+    padding: 0 5%;
+  }
+  .about__description {
+    padding-bottom: 50px;
+  }
+  .about__description h2::before {
+    display: none;
+  }
+  .about__description p::before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .video__wrapper {
+    padding: 100px 50px;
+  }
+  .video__wrapper::after {
+    right: 40px;
+  }
+  .video__wrapper h2::before {
+    display: none;
+  }
+  .video__wrapper p::before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .furniture__description__wrapper > div::after, .decor__description__wrapper > div::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation-menu {
+    min-width: 240px;
+    width: 80%;
+  }
+  .navigation-menu::before {
+    width: 110%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main-screen__logo {
+    left: calc(50% - 487px / 2);
+  }
+  .main-screen__slider {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .furniture-bg {
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .decor-bg {
+    padding: 20px;
+    margin-top: 100px;
+  }
+}
+
+.menu-list a {
+  font-size: 1.4em;
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .video__wrapper {
+    border: none;
+    padding: 100px 0;
+  }
+  .video__wrapper::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .main-screen__logo {
+    width: 422px;
+    padding: 0 10px;
+    left: calc(50% - 422px / 2);
+  }
+  .main-screen__logo h1 {
+    font-size: 8em;
+  }
+  .furniture__description h2, .decor__description h2 {
+    padding: 0;
+  }
+  .furniture__description h2::before, .furniture__description h2::after, .decor__description h2::before, .decor__description h2::after {
+    display: none;
+  }
+  .furniture__description p, .decor__description p {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .furniture__description p::before, .furniture__description p::after, .decor__description p::before, .decor__description p::after {
+    display: none;
+  }
+  .furniture__description button, .decor__description button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .furniture__description__wrapper > div {
+    left: 5%;
+  }
+  .decor__description__wrapper > div {
+    right: 5%;
+  }
+  .furniture-bg, .decor-bg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .furniture-bg img, .decor-bg img {
+    padding: 0;
+  }
+  .furniture-bg p, .decor-bg p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 483px) {
+  section.quality h2::after {
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navigation-menu {
+    background-color: #000;
+    min-width: 240px;
+    width: 80%;
+  }
+  .navigation-menu::before {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-screen__logo {
+    text-align: center;
+    width: 290px;
+    top: calc(50% - 125px / 2);
+    left: calc(50% - 290px / 2);
+  }
+  .main-screen__logo h1 {
+    font-size: 5em;
+  }
+  .main-screen__logo button {
+    padding: 13px 40px;
+  }
+  .main-screen__logo div {
+    display: none;
+  }
+  .main-screen, .main-screen__slider {
+    min-height: 100vh;
+  }
+  footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .navigation-menu::before {
+    left: 60%;
+  }
+}
+/*# sourceMappingURL=media.css.map */

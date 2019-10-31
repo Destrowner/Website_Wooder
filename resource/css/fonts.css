@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Proxima';
+  src: url(../fonts/ProximaNova/ProximaNova-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'ProximaB';
+  src: url(../fonts/ProximaNova/ProximaNova-Bold.ttf) format("truetype");
+}
+/*# sourceMappingURL=fonts.css.map */
